@@ -1,0 +1,39 @@
+.services {
+	background-color: #475a85;
+
+	.item {
+		margin: 40px 0;	
+		text-align: center;
+		color: #FFF;
+		padding: 0 20%;
+
+		.fa {
+			color: #FFF;
+			font-size: 4rem;
+		}
+		.item__title {
+			font-size: 1.8rem;
+			font-weight: 700;
+			margin-top: 35px;
+		}
+		.item__description {
+			font-size: 1.4rem;
+			margin: 15px 0 35px;
+		}
+	}
+}
+@media (min-width: 768px) {
+	.services {
+		.item {
+			padding: 0;
+			width: 50%;
+		}
+	}
+}
+@media (min-width: 992px) {
+	.services .item {
+		width: 25%;
+		box-sizing: border-box;
+		padding: 0 20px;
+	}
+}

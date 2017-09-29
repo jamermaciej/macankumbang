@@ -1,0 +1,30 @@
+.footer {
+	background-color: #161828;
+	text-align: center;
+	padding: 30px 0;
+
+	.copyright {
+		margin: 0;
+		color: #76777f;
+		font-size: 1.4rem;
+		margin-bottom: 10px;
+		
+	}
+	.logo-f {
+		margin: 0;
+
+		a {
+			color: #76777f;
+			font-size: 2.2rem;
+
+			span {
+				font-weight: 400;
+			}
+		}
+	}
+}
+@media (min-width: 992px) {
+	.footer {
+		padding: 60px 0;
+	}
+}

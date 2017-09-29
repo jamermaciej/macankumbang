@@ -1,0 +1,68 @@
+.owl-carousel {
+	margin-top: 80px;
+	padding: 0;
+}
+.owl-theme .owl-dots .owl-dot span {
+	width: 15px;
+	height: 15px;
+}
+
+.client-photo {
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin: 0 auto;
+}
+blockquote {
+	padding: 30px 10px;
+	margin: 0;
+	margin-left: 18px;
+	font-size: 1.4rem;
+	color: #323232;
+	font-style: italic;
+	position: relative;
+
+	&::before {
+		content: '\201C';
+		font-size: 6rem;
+		font-family: Perpetua;
+		position: absolute;
+		left: -20px;
+		top: 15px;
+	}
+
+	cite {
+		font-size: 2rem;
+		font-weight: 700;
+		font-style: normal;
+		display: block;
+		margin-top: 20px;
+	}
+}
+@media (min-width: 768px) {
+	blockquote {
+		font-size: 1.8rem;
+
+		cite {
+			font-size: 2.4rem;
+		}
+	}
+}
+@media (min-width: 992px) {
+	li {
+		display: flex;
+		align-items: center;
+	}
+	blockquote {
+		width: 60%;
+		margin-left: 80px;
+
+		&::before {
+			font-size: 12rem;
+			left: -40px;
+			top: 0;
+		}
+	}
+
+}
